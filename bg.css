@@ -1,17 +1,13 @@
-#bg {
-  position: fixed; 
-  top: -50%; 
-  left: -50%; 
-  width: 200%; 
-  height: 200%;
-}
-#bg img {
-  position: absolute; 
-  top: 0; 
-  left: 0; 
-  right: 0; 
-  bottom: 0; 
-  margin: auto; 
-  min-width: 50%;
-  min-height: 50%;
-}
+body {
+    background-image:    url(images/bg.gif) no-repeat;
+    background-size: cover;                     
+    background-position: center center;             
+ }
+ .myphoto {
+   border-radius: 100%;
+   display: block;
+   position: fixed;
+   margin: 310px 690px;
+   height: 285px;
+   width: 285px;
+ }
