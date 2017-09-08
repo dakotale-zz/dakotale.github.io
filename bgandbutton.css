@@ -1,5 +1,6 @@
+
 html {
-    background-image:    url(images/bg.jpg) no-repeat fixed;
+    background-image: url(images/bg.jpg) no-repeat fixed;
     min-height: 100%;
     min-width: 1080;
     width: 100%;
@@ -7,7 +8,7 @@ html {
     position: fixed;
     top: 0;
     left: 0;
-    background-size: auto;                              
+    background-size: cover;                              
  }
 
 /* Code below provided by https://codepen.io/anon/pen/VzJWpX*/
