@@ -1,5 +1,5 @@
 html {
-    background-image:    url(images/bg.gif) no-repeat center center fixed;
+    background-image:    url(images/bg.png) no-repeat center center fixed;
     min-height: 100%;
     min-width: auto;
     width: 100%;
@@ -38,10 +38,10 @@ html {
   border-right-width: 4px;
 }
 .draw-border:hover {
-  color: #000000;
+  color: #808080;
 }
 .draw-border:hover::before, .draw-border:hover::after {
-  border-color: #000000;
+  border-color: #808080;
   -webkit-transition: border-color 0s, width 0.25s, height 0.25s;
   transition: border-color 0s, width 0.25s, height 0.25s;
   width: 100%;
@@ -70,7 +70,7 @@ html {
 }
 
 body {
-  background: #000000
+  background: #808080
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
