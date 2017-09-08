@@ -33,10 +33,10 @@ html {
   border-right-width: 4px;
 }
 .draw-border:hover {
-  color: #BFBFBF;
+  color: #000000;
 }
 .draw-border:hover::before, .draw-border:hover::after {
-  border-color: #BFBFBF;
+  border-color: #000000;
   -webkit-transition: border-color 0s, width 0.25s, height 0.25s;
   transition: border-color 0s, width 0.25s, height 0.25s;
   width: 100%;
@@ -52,20 +52,17 @@ html {
 }
 
 .btn {
-  background: none;
-  border: none;
-  cursor: pointer;
   line-height: 1.5;
   font: 700 1.2rem 'Optima', sans-serif;
   padding: 1em 2em;
   letter-spacing: 0.05rem;
 }
 .btn:focus {
-  outline: 2px dotted #BFBFBF;
+  outline: 2px dotted #000000;
 }
 
 body {
-  background: #BFBFBF
+  background: #000000
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

@@ -33,10 +33,10 @@ html {
   border-right-width: 4px;
 }
 .draw-border:hover {
-  color: #BFBFBF;
+  color: #10E6EC;
 }
 .draw-border:hover::before, .draw-border:hover::after {
-  border-color: #BFBFBF;
+  border-color: #10E6EC;
   -webkit-transition: border-color 0s, width 0.25s, height 0.25s;
   transition: border-color 0s, width 0.25s, height 0.25s;
   width: 100%;
@@ -61,11 +61,11 @@ html {
   letter-spacing: 0.05rem;
 }
 .btn:focus {
-  outline: 2px dotted #BFBFBF;
+  outline: 2px dotted #10E6EC;
 }
 
 body {
-  background: #BFBFBF
+  background: #10E6EC
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
